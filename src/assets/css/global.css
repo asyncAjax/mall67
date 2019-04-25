@@ -1,0 +1,13 @@
+html,body,#app{
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+/* 给后台左侧权限按钮设置样式 */
+.el-submenu__title,.el-menu-item{
+  font-size:13px;
+}
+i.iconfont{
+  margin-right:10px;
+}

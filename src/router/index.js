@@ -5,6 +5,7 @@ import Login from '@/components/Login'
 import Home from '@/components/Home'
 import Welcome from '@/components/Welcome'
 import User from '@/components/User'
+// import Fat from '@/components/test-fat'
 
 Vue.use(Router)
 

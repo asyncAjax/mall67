@@ -20,7 +20,7 @@
           :router="true"
         >
           <el-submenu
-            :index="item.id"
+            :index="item.id+'' "
             :style="{width:isshow?'65px':'200px'}"
             v-for="(item,k) in menuList"
             :key="item.id"

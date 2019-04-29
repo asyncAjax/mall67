@@ -1,0 +1,39 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1024px;
+}
+
+/* 给后台左侧权限按钮设置样式 */
+.el-submenu__title,
+.el-menu-item {
+  font-size: 13px;
+}
+i.iconfont {
+  margin-right: 10px;
+}
+
+/* 给业务页面的card卡片区设置样式 */
+.box-card {
+  margin-top: 15px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+/* 给el-table表格设置样式 */
+.el-table,
+.el-pagination {
+  margin-top: 15px;
+  font-size: 12px;
+}
+el-breadcrumb{
+  margin-bottom: 15px;
+}
+#addBtn{
+  background-color:pink;
+}
+el-table{
+  text-align: center;
+}
